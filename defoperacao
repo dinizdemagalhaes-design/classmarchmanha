@@ -22,4 +22,4 @@ resultado = input("Digite a operação é:", )
 
 
 introduction()
-print ("O resultado é", resultado)
+

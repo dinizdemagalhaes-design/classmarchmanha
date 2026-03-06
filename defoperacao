@@ -1,0 +1,25 @@
+def message():
+      print("Escolha uma das funcões abaixo: ")   
+
+def introduction():
+    if resultado == "soma":
+        print(a+b)
+    elif resultado == "subtração":
+        print (a - b)
+    elif resultado == "divisão":
+        print (a/ b)
+    elif resultado == "multiplicação":
+        print (a * b)
+    elif resultado =="exponenciação":
+        print (a ** b)
+
+a = float(input("Digite o númeor a: "))
+b = float(input("Digite o número b: "))  
+resultado = input("Digite a operação é:", )
+
+
+
+
+
+introduction()
+print ("O resultado é", resultado)

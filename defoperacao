@@ -1,7 +1,8 @@
+
 def message():
       print("Escolha uma das funcões abaixo: ")   
 
-def introduction():
+def introduction(resultado, a, b):
     if resultado == "soma":
         print(a+b)
     elif resultado == "subtração":
@@ -16,6 +17,8 @@ def introduction():
 a = float(input("Digite o númeor a: "))
 b = float(input("Digite o número b: "))  
 resultado = input("Digite a operação é:", )
+
+introduction(resultado, a, b)
 
 
 
